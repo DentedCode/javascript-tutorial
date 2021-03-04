@@ -153,13 +153,78 @@ multiple line Comment
 //   } while (i < 10);
 // };
 
-const erroLog = () => {
-  try {
-    return a + 5;
-  } catch (error) {
-    console.log(error.message);
-  } finally {
-    console.log("finally is executing");
-  }
-};
-console.log(erroLog());
+// const erroLog = () => {
+//   try {
+//     return a + 5;
+//   } catch (error) {
+//     console.log(error.message);
+//   } finally {
+//     console.log("finally is executing");
+//   }
+// };
+// console.log(erroLog());
+
+////Objects
+// const student = {
+//   name: "Prem-Acharya",
+//   age: 16,
+//   "some-Array": ["apple", "mango", "banana"],
+//   childObj: {},
+// };
+
+// for (const key in student) {
+//   // console.log(student[key]);
+// }
+
+// console.log(student["some-Array"]);
+// for/in for (x in person) → for object
+
+// Number
+// const a = "5.4645";
+// console.log(parseFloat(a));
+// -2^53-1 to 2^53-1 //safe number
+
+// String
+// Escape character \
+
+// const name = "Hello there, my name is Prem Acharya";
+
+// Length
+// indexOf, lastIndexOf, search
+// Slice, substring, substr
+// Replace, concat, trim
+// toUpperCase, toLowerCase
+// charAt, [], split
+// let value = money.slice(9, 11);
+
+// console.log(name.split(","));
+
+//// Array[]
+
+const fruits = ["apple", "mango", "banana", "apple1", "mango1", "banana1"];
+// Length, push , pop, shift, unshift, toString, join,[], splice, slice
+// Sort, reverse
+// forEach, map
+// Filter, every,  reduce
+// indexOf, fill
+
+// console.log(fruits.unshift("kiwi"));
+// const num = [1, 5, 3, 12, 99, 1000];
+// console.log(fruits.reverse());
+
+// ->
+// const newArry = new Array(10).fill("a");
+
+// fruits.forEach((element) => console.log(element));
+// fruits.map((item, i) => console.log(i, item));
+// const filteredArray = fruits.filter((item) => item.includes("ma"));
+// const isEvery = fruits.every((item) => item.includes("a"));
+
+// reduce
+// const numbers = [4, 5, 3, 20, 9];
+// const newReduced = numbers.reduce((total, currentNumber) => {
+//   return total + currentNumber;
+// }, 9);
+// console.log(newReduced);
+
+// console.log(fruits.indexOf("mango"));
